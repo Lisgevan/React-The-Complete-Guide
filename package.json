@@ -1,0 +1,23 @@
+{
+  "name": "react_the_complete_guide",
+  "version": "1.0.0",
+  "description": "Udemy's course \"React - The Complete Guide 2023 (incl. React Router &amp; Redux)\" by Maximilian Schwarzmüller",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lisgevan/React-The-Complete-Guide.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lisgevan/React-The-Complete-Guide/issues"
+  },
+  "homepage": "https://github.com/Lisgevan/React-The-Complete-Guide#readme",
+  "devDependencies": {
+    "eslint": "^8.56.0",
+    "eslint-plugin-react": "^7.33.2"
+  }
+}
