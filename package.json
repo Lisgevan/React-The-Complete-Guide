@@ -19,5 +19,8 @@
   "devDependencies": {
     "eslint": "^8.56.0",
     "eslint-plugin-react": "^7.33.2"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.0.1"
   }
 }
