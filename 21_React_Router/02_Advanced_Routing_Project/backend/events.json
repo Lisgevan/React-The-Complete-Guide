@@ -1,11 +1,1 @@
-{
-  "events": [
-    {
-      "id": "e1",
-      "title": "A dummy event",
-      "date": "2023-02-22",
-      "image": "https://blog.hubspot.de/hubfs/Germany/Blog_images/Optimize_Marketing%20Events%20DACH%202021.jpg",
-      "description": "Join this amazing event and connect with fellow developers."
-    }
-  ]
-}
+{"events":[{"title":"Testing...2","image":"https://www.muenchen.de/sites/default/files/styles/3_2_w320/public/2022-11/20221121_christkindlmarkt-4063.jpg.webp","date":"11111-11-11","description":"asd","id":"95a2d35c-29d5-4636-bc77-df9c2e252473"},{"title":"New event","image":"https://www.muenchen.de/sites/default/files/styles/3_2_w320/public/2022-11/20221121_christkindlmarkt-4063.jpg.webp","date":"1111-11-11","description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dignissim luctus metus nec fermentum. Duis malesuada massa quis egestas tempor","id":"5fcec0a4-8699-43b2-9f4c-8f052627b808"},{"title":"A new event","image":"https://www.muenchen.de/sites/default/files/styles/3_2_w320/public/2022-11/20221121_christkindlmarkt-4063.jpg.webp","date":"2024-12-25","description":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dignissim luctus metus nec fermentum. Duis malesuada massa quis egestas tempor","id":"26720242-2b7c-4d74-a9a3-03f32b9037b2"},{"id":"e1","title":"A dummy event","date":"2023-02-22","image":"https://blog.hubspot.de/hubfs/Germany/Blog_images/Optimize_Marketing%20Events%20DACH%202021.jpg","description":"Join this amazing event and connect with fellow developers."}]}
