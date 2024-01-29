@@ -139,6 +139,8 @@ app.put("/events/:id", async (req, res) => {
 	setTimeout(() => {
 		res.json({ event: events[eventIndex] });
 	}, 1000);
+
+	return res.json({ event: events[eventIndex] });
 });
 
 app.delete("/events/:id", async (req, res) => {
@@ -160,6 +162,8 @@ app.delete("/events/:id", async (req, res) => {
 	setTimeout(() => {
 		res.json({ message: "Event deleted" });
 	}, 1000);
+
+	return res.json({ message: "Event deleted" });
 });
 
 app.listen(3000, () => {

@@ -8,8 +8,8 @@ import EventItem from "./EventItem.jsx";
 
 export default function NewEventsSection() {
 	const { data, isPending, isError, error } = useQuery({
-		queryKey: ["events"],
-		queryFn: fetchEvents,
+		queryKey: ["events", { max: 3 }],
+		queryFn: ({ signal, queryKey }) => fetchEvents({ signal, ...queryKey[1] }),
 		staleTime: 5000, // delay between two executions of the query function - default is 0 //
 		// gcTime: 18000, // how long the data is stored in memory cache - default is 5 minutes //
 	});
