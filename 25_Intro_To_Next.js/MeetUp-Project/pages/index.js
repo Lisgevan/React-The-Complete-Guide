@@ -63,6 +63,7 @@ function HomePage(props) {
 // 		},
 // 	};
 // }
+//
 
 export async function getStaticProps() {
 	// fetch data from an API
