@@ -86,7 +86,7 @@ export async function getStaticProps() {
 					image: meetup.image,
 					id: meetup._id.toString(),
 				})) || DUMMY_MEETUPS,
-			revilidate: 10, // regenerated every 10 seconds
+			revilidate: 1, // regenerated every 10 seconds
 		},
 	};
 }
