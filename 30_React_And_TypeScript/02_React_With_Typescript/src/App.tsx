@@ -1,26 +1,34 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+// import { useState } from "react";
+import NewTodo from "./components/NewTodo";
+import Todos from "./components/Todos";
+// import Todo from "./models/todo";
+import TodosContextProvider from "./store/todos-context";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	// const todos = [ new Todo( "Learn React" ), new Todo( "Learn Typescript" ) ];
+	// const [todos, setTodos] = useState<Todo[]>([]);
+
+	// const onAddTodoHandler = (todoText: string) => {
+	// 	const newTodo = new Todo(todoText);
+	// 	setTodos(prevTodos => [...prevTodos, newTodo]);
+	// 	// setTodos(prevTodos => prevTodos.concat(newTodo));
+	// };
+
+	// const removeTodoHandler = (id: string) => {
+	// 	setTodos(prevTodos => prevTodos.filter(todos => todos.id !== id));
+	// };
+
+	return (
+		<TodosContextProvider>
+			<NewTodo
+			// onAddTodo={ onAddTodoHandler }
+			/>
+			<Todos
+			// items={ todos } onRemoveTodo={ removeTodoHandler }
+			/>
+		</TodosContextProvider>
+	);
 }
 
 export default App;
+
