@@ -1,9 +1,6 @@
-import componentsImage from "./assets/images/components.png";
-import stateImage from "./assets/images/state.png";
-import eventsImage from "./assets/images/events.png";
-
-import Header from "./components/Header/Header";
-import Concept from "./components/Concept/Concept";
+import componentsImage from "../assets/images/components.png";
+import stateImage from "../assets/images/state.png";
+import eventsImage from "../assets/images/events.png";
 
 const concepts = [
 	{
@@ -26,18 +23,4 @@ const concepts = [
 	},
 ];
 
-function App() {
-	return (
-		<div>
-			<Header />
-			<ul id="concepts">
-				<Concept image={concepts[0].image} title={concepts[0].title} description={concepts[0].description} />
-				<Concept image={concepts[1].image} title={concepts[1].title} description={concepts[1].description} />
-				<Concept image={concepts[2].image} title={concepts[2].title} description={concepts[2].description} />
-			</ul>
-		</div>
-	);
-}
-
-export default App;
-
+export default concepts;
